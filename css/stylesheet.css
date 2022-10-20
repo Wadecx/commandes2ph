@@ -50,6 +50,7 @@ body {
 
 .paragraph
 {
+  width: fit-content;
   text-align: center;
 	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
 	border: 1px solid;
@@ -68,6 +69,7 @@ body {
 	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
 	border: 1px solid;
 	border-color: #04AA6D;
+  width: fit-content;
 	display: inline-block;
 	margin: 20px 5px;
 	padding: 20px;
@@ -90,11 +92,13 @@ body {
 
 .download-btn
 {
+  width: fit-content;
+  display: block;
   background:none;
-	margin: 20px auto;
+	margin: 10px auto;
 	text-align: center;
 	border:2px solid #2ecc71;
-	padding:14px 40px;
+	padding:14px  10px;
   text-decoration: none;
 	outline: none;
 	color: white;
