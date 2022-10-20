@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Téléchargements</title>
+</head>
+<body>
+    <div class="topnav">
+        <a class="home" href="index.html">Menu</a>
+        <a href="download.html">Télécharger</a>
+        <a class="contact" href="contact.html">Contact</a>
+      </div>
+
+    <div class="container">
+        <form onsubmit="sendEmail(); reset(); return false;">
+            <h1>Me Contacter</h1>
+            <input type="text" id="name" placeholder="Votre Nom & Prénom" required>
+            <input type="text" id="email" placeholder="Votre Email" required>
+            <textarea id="message" rows="4" placeholder="Comment pui-je vous aider ?" required></textarea>
+            <input type="submit" id="send" value="Envoyer">
+        </form>
+    </div>
+    <script src="js/index.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</body>

@@ -111,3 +111,94 @@ body {
   border: 2px solid cyan;
   transition: 0.50s;
 }
+
+.container
+{
+  width: 100%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container input[type = "text"]
+{
+  border:0;
+	background: none;
+	display: block;
+	margin:3px auto;
+	text-align: center;
+	border: 2px solid #2ecc71;
+	padding:14px 10px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+}
+.container textarea
+{
+  border:0;
+	background: none;
+	display: block;
+	margin:3px auto;
+	text-align: center;
+	border: 2px solid #2ecc71;
+	padding:14px 10px;
+	width: 300px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+}
+.container textarea:focus{ 
+	width: 310px;
+	border-color: cyan;
+}
+
+.container input[type = "text"]:focus{ 
+	width: 280px;
+	border-color: cyan;
+}
+.container input[type = "submit"]{
+	border:0;
+	background:none;
+	display: black;
+	margin: 20px auto;
+	text-align: center;
+	border:2px solid #2ecc71;
+	padding:14px 40px;
+
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+	cursor: pointer;
+}
+
+.container input[type = "submit"]:hover{
+  border: 2px solid cyan;
+}
+
+
+form{
+  display: flex;
+  flex-direction: column;
+  padding: 2vw 4vw;
+  max-width: 600px;
+  width: 90%;
+  border-radius: 10px;
+}
+
+form h1
+{
+color :White;
+font-weight: 800;
+margin-bottom: 20px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
