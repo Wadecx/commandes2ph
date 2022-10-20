@@ -88,29 +88,6 @@ body {
 	}
 }
 
-/*.button input[type = "submit"]{
-  position: relative;
-  
-	background:none;
-	margin: 20px auto;
-	text-align: center;
-	border:2px solid #2ecc71;
-	padding:14px 40px;
-
-	outline: none;
-	color: white;
-	border-radius: 24px;
-	transition: 0.25s;
-	cursor: pointer;
-}
-
-.button input[type = "submit"]:hover{ 
-  transition: 0.25s;
-	border-color: #31c5d8;
-  position: relative;
-}
-*/
-
 .download-btn
 {
   background:none;
@@ -128,4 +105,5 @@ body {
 .download-btn:hover
 {
   border: 2px solid cyan;
+  transition: 0.50s;
 }
