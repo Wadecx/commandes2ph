@@ -125,3 +125,7 @@ body {
 	transition: 0.25s;
 	cursor: pointer;
 }
+.download-btn:hover
+{
+  border: 2px solid cyan;
+}
