@@ -1,10 +1,11 @@
 .topnav {
-    background-color:#292928
-    ;
+    background-color:#292928;
+    text-align: center;
     border-radius: 10px;
     display: flex;
     width: fit-content;
     margin: auto;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
   }
   
   .topnav a {
@@ -18,8 +19,9 @@
 
   .topnav a:hover {
     border-radius: 10px;
-    background-color: #ddd;
-    color: black;
+    background-color:#454343
+    ;
+    color: white;
   }
 
   .topnav a.home {
@@ -34,4 +36,92 @@
     border-bottom-right-radius: 10px
 }
 
-body {background-color: #21211f;}
+body {
+  background-color: #21211f;
+  text-align: center;
+}
+
+.title
+{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+  color: White;
+  text-align: center;
+}
+
+.paragraph
+{
+  text-align: center;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+	border: 1px solid;
+	border-color: #04AA6D;
+	display: inline-block;
+	margin: 20px 5px;
+	padding: 20px;
+	background: #31393b;
+	color: #FFF;
+  font-size: 20px;
+}
+
+.downloadparagraph
+{
+  text-align: center;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+	border: 1px solid;
+	border-color: #04AA6D;
+	display: inline-block;
+	margin: 20px 5px;
+	padding: 20px;
+	background: #31393b;
+	color: #FFF;
+  font-size: 20px;
+}
+
+
+@media screen and (max-width: 425px) {
+  body
+   {
+    width: 100%;
+	}
+	.pstyle
+	{
+		width: 50%;
+	}
+}
+
+/*.button input[type = "submit"]{
+  position: relative;
+  
+	background:none;
+	margin: 20px auto;
+	text-align: center;
+	border:2px solid #2ecc71;
+	padding:14px 40px;
+
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+	cursor: pointer;
+}
+
+.button input[type = "submit"]:hover{ 
+  transition: 0.25s;
+	border-color: #31c5d8;
+  position: relative;
+}
+*/
+
+.download-btn
+{
+  background:none;
+	margin: 20px auto;
+	text-align: center;
+	border:2px solid #2ecc71;
+	padding:14px 40px;
+  text-decoration: none;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+	cursor: pointer;
+}
