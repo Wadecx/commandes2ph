@@ -1,0 +1,185 @@
+.contact {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+body {
+  background-color: #21211f;
+  text-align: center;
+}
+
+.title {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: White;
+  text-align: center;
+}
+
+.paragraph {
+  width: fit-content;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  border: 1px solid;
+  border-color: #04aa6d;
+  display: inline-block;
+  margin: 20px 5px;
+  padding: 20px;
+  background: #31393b;
+  color: #fff;
+  font-size: 20px;
+}
+
+.downloadparagraph {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  border: 1px solid;
+  border-color: #04aa6d;
+  width: fit-content;
+  display: inline-block;
+  padding: 20px;
+  background: #31393b;
+  color: #fff;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 578px) {
+  .container {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  body {
+    width: 100%;
+  }
+  .pstyle {
+    width: 50%;
+  }
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 25px;
+}
+
+.download-btn {
+  width: fit-content;
+  display: block;
+  background: none;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 10px;
+  text-decoration: none;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.download-btn:hover {
+  border: 2px solid cyan;
+  transition: 0.5s;
+}
+
+.container {
+  border: 1px solid #04aa6d;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+}
+
+.container input[type="text"] {
+  background: transparent;
+  margin: 3px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 10px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  width: 200px;
+  transition: 0.25s all;
+}
+.container textarea {
+  background: transparent;
+  margin: 3px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 10px;
+  width: 300px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  resize: none;
+}
+.container textarea:focus {
+  width: 310px;
+  border-color: cyan;
+}
+
+.container input[type="text"]:focus {
+  width: 280px;
+  border-color: cyan;
+}
+.container input[type="submit"] {
+  border: 0;
+  background: none;
+  display: black;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.container input[type="submit"]:hover {
+  border: 2px solid cyan;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 2vw 4vw;
+  max-width: 600px;
+  width: 90%;
+  border-radius: 10px;
+}
+
+form h1 {
+  color: White;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 527px) {
+  .container {
+    width: 300px;
+  }
+  .container textarea {
+    width: 200px;
+  }
+}
