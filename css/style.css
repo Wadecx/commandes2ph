@@ -46,7 +46,7 @@ body {
 
 @media screen and (max-width: 578px) {
   .container {
-    width: 300px;
+    width: 350px;
   }
 }
 
@@ -121,12 +121,11 @@ body {
   resize: none;
 }
 .container textarea:focus {
-  width: 310px;
   border-color: cyan;
 }
 
 .container input[type="text"]:focus {
-  width: 280px;
+  width: 220px;
   border-color: cyan;
 }
 .container input[type="submit"] {
